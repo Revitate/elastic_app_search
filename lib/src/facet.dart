@@ -18,7 +18,7 @@ class _ElasticQueryFacet with _$ElasticQueryFacet {
       _$ElasticQueryFacetFromJson(json);
 }
 @freezed
-class _ElasticRangeFacet with _$ElasticQueryFacet {
+class _ElasticRangeFacet with _$ElasticRangeFacet {
   @JsonSerializable(explicitToJson: true, includeIfNull: false)
   const factory _ElasticRangeFacet({
     String? name,
