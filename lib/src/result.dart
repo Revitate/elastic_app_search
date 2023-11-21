@@ -13,6 +13,7 @@ class ElasticResultMeta with _$ElasticResultMeta {
   factory ElasticResultMeta({
     /// The relevance of the result
     double? score,
+    String? engine,
   }) = _ElasticResultMeta;
 
   factory ElasticResultMeta.fromJson(Map<String, dynamic> json) =>
